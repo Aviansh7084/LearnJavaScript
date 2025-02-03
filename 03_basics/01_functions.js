@@ -36,6 +36,30 @@ function loginUserMessage(username="sam"){
     return `${username} just logged in`
 }
 //console.log(loginUserMessage("Avinash"));
-console.log(loginUserMessage("Avinash"));// overwrite sam value place into avinash
+//console.log(loginUserMessage("Avinash"));// overwrite sam value place into avinash
 
+ function calsulateCartPrice(value1, value2, ...num1){
+     return num1 
+ }
+ console.log(calsulateCartPrice(200,300,500,5300));
+ 
+ const user = {
+    username: "avinash",
+    price: 199
+ }
+ function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} abd price is ${anyobject.price}`);
+    
+ }
+ //handleObject(user)
+ handleObject({
+    username: "sam",
+    price: 399
+ })
+
+ const myNewArray = [200,400,100,600]
+ function returnSecondValue(getArray){
+    return getArray[3]
+ }
+ console.log(returnSecondValue(myNewArray));
  
